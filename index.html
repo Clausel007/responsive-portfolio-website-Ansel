@@ -3,79 +3,268 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="" type="image/x-icon">
-
+        <link href='' rel='stylesheet'>
         <!--=============== BOXICONS ===============-->
-        
-
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
         <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="">
-
+        <link rel="stylesheet" href="assets/css/styles.css">
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="">
-
-        <title> Responsive portfolio website Ansel </title>
+        <title>John Clausel</title>
     </head>
     <body>
         <!--=============== HEADER ===============-->
         <header class="header" id="header">
-            
+            <nav class="nav container">
+                <a href="#" class="nav-logo">Claus</a>
+                <div class="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active-link">
+                                <i class="bx bx-home-alt"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">
+                                <i class="bx bx-user"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link">
+                                <i class="bx bx-book"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link">
+                                <i class="bx bx-briefcase-alt-2"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">
+                                <i class="bx bx-message-square-detail"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <i class="bx bx-moon change-theme" id="change-theme"></i>
+            </nav>
         </header>
-
         <!--=============== MAIN ===============-->
         <main class="main">
             <!--=============== HOME ===============-->
             <section class="home section" id="home">
-                
+                <div class="home-container container grid">
+                    <div class="home-data">
+                        <span class="home-greeting">Je suis</span>
+                        <h1 class="home-name">John Clausel</h1>
+                        <h3 class="home-profession">Web developer</h3>
+                        <div class="home-buttons">
+                            <a download="" href="assets/pdf/Ansel-Cv.pdf" class="btn btn-download">Telecharger CV</a>
+                            <a href="#about" class="btn">Voir plus</a>
+                        </div>
+                    </div>
+                    <div class="home-img-handle">
+                        <img src="assets/img/perfil.png" alt="" class="home-img">
+                    </div>
+                    <div class="home-social">
+                        <a href="#" class="home-social-link">
+                            <i class="bx bxl-linkedin"></i>
+                        </a>
+                        <a href="#" class="home-social-link">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                        <a href="#" class="home-social-link">
+                            <i class="bx bxl-twitter"></i>
+                        </a>
+                    </div>
+                    <a href="#about" class="home-scroll">
+                    <div class="home-social-2">
+                        <a href="#" class="home-social-link">
+                            <i class="bx bxl-instagram"></i>
+                        </a>
+                        <a href="#" class="home-social-link">
+                            <i class="bx bxl-github"></i>
+                        </a>
+                    </div>
+                    <a href="#about" class="home-scroll">
+                        <i class="bx bx-mouse home-scroll-icon"></i>
+                        <span class="home-scroll-indic">Glisser</span>
+                    </a>
+                </div>
             </section>
-            
             <!--=============== ABOUT ===============-->
             <section class="about section" id="about">
-                
+                <span class="section-subtitle">Je suis</span>
+                <h2 class="section-title">A propos de moi</h2>
+                <div class="about-container container grid">
+                    <img src="assets/img/about.jpg" alt="A propos image" class="about-img">
+                    <div class="about-data">
+                        <div class="about-info">
+                            <div class="about-box">
+                                <i class="bx bx-award about-icon"></i>
+                                <h3 class="about-title">Expérience</h3>
+                                <span class="about-subtitle">5 ans d'expérience</span>
+                            </div>
+                            <div class="about-box">
+                                <i class="bx bx-briefcase-alt about-icon"></i>
+                                <h3 class="about-title">Complète</h3>
+                                <span class="about-subtitle">5 projets</span>
+                            </div>
+                            <div class="about-box">
+                                <i class="bx bx-support about-icon"></i>
+                                <h3 class="about-title">Support</h3>
+                                <span class="about-subtitle">H24, 7 jours</span>
+                            </div>
+                        </div>
+                        <p class="about-description">
+                            Frontend developper, i create web pages with UI / UX user interface, 
+                            i have years of experience and my clients are happy
+                            with the projects carried out.
+                        </p>
+                        <a href="#contact" class="btn">Me contacter</a>
+                    </div>
+                </div>
             </section>
-
             <!--=============== SKILLS ===============-->
             <section class="skills section" id="skills">
-                
+                <span class="section-subtitle">Mes aptitudes</span>
+                <h2 class="section-title">Experiences</h2>
+                <div class="skills-container container grid">
+                    <div class="skills-content">
+                        <h3 class="skill-title">FrontEnd developer</h3>
+                        <div class="skill-box">
+                            <div class="skill-group">
+                                <div class="skill-data">
+                                    <i class="bx bxs-badge-check"></i>
+                                    <div>
+                                        <h3 class="skill-name">HTML</h3>
+                                        <span class="skill-level">Advancé</span>
+                                    </div>
+                                </div>
+                                <div class="skill-data">
+                                    <i class="bx bxs-badge-check"></i>
+                                    <div>
+                                        <h3 class="skill-name">CSS</h3>
+                                        <span class="skill-level">Advancé</span>
+                                    </div>
+                                </div>
+                                <div class="skill-data">
+                                    <i class="bx bxs-badge-check"></i>
+                                    <div>
+                                        <h3 class="skill-name">Javascript</h3>
+                                        <span class="skill-level">Intermédiaire</span>
+                                    </div>
+                                </div>
+                                <div class="skill-data">
+                                    <i class="bx bxs-badge-check"></i>
+                                    <div>
+                                        <h3 class="skill-name">React</h3>
+                                        <span class="skill-level">Basique</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <div class="skill-data">
+                                    <i class="bx bxs-badge-check"></i>
+                                    <div>
+                                        <h3 class="skill-name">Bootstrap</h3>
+                                        <span class="skill-level">Intermédiaire</span>
+                                    </div>
+                                </div>
+                                <div class="skill-data">
+                                    <i class="bx bxs-badge-check"></i>
+                                    <div>
+                                        <h3 class="skill-name">Wordpress</h3>
+                                        <span class="skill-level">Intermédiaire</span>
+                                    </div>
+                                </div>
+                                <div class="skill-data">
+                                    <i class="bx bxs-badge-check"></i>
+                                    <div>
+                                        <h3 class="skill-name">TikiWiki</h3>
+                                        <span class="skill-level">Learnership</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-content">
+                        <h3 class="skill-title">BackEnd developer</h3>
+                        <div class="skill-box">
+                            <div class="skill-group">
+                                <div class="skill-data">
+                                    <i class="bx bxs-badge-check"></i>
+                                    <div>
+                                        <h3 class="skill-name">PHP</h3>
+                                        <span class="skill-level">Advancé</span>
+                                    </div>
+                                </div>
+                                <div class="skill-data">
+                                    <i class="bx bxs-badge-check"></i>
+                                    <div>
+                                        <h3 class="skill-name">MySQL</h3>
+                                        <span class="skill-level">Intermédiaire</span>
+                                    </div>
+                                </div>
+                                <div class="skill-data">
+                                    <i class="bx bxs-badge-check"></i>
+                                    <div>
+                                        <h3 class="skill-name">MariaDB</h3>
+                                        <span class="skill-level">Intermédiaire</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <div class="skill-data">
+                                    <i class="bx bxs-badge-check"></i>
+                                    <div>
+                                        <h3 class="skill-name">Git</h3>
+                                        <span class="skill-level">Basique</span>
+                                    </div>
+                                </div>
+                                <div class="skill-data">
+                                    <i class="bx bxs-badge-check"></i>
+                                    <div>
+                                        <h3 class="skill-name">Laravel</h3>
+                                        <span class="skill-level">Basique </span>
+                                    </div>
+                                </div>
+                                <div class="skill-data">
+                                    <i class="bx bxs-badge-check"></i>
+                                    <div>
+                                        <h3 class="skill-name">Python</h3>
+                                        <span class="skill-level">Learnership</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
             </section>
-
             <!--=============== SERVICES ===============-->
             <section class="services section">
-                
             </section>
-
             <!--=============== WORK ===============-->
             <section class="work section" id="work">
-                
             </section>
-
             <!--=============== TESTIMONIALS ===============-->
             <section class="testimonial section">
-                
             </section>
-
             <!--=============== CONTACT ===============-->
             <section class="contact section" id="contact">
-                
             </section>
         </main>
-
         <!--=============== FOOTER ===============-->
         <footer class="footer">
-            
         </footer>
-
         <!--=============== SCROLLREVEAL ===============-->
-        <script src=""></script>
-
+        <script src="assets/js/app.js"></script>
         <!--=============== SWIPER JS ===============-->
         <script src=""></script>
-
         <!--=============== MIXITUP FILTER ===============-->
         <script src=""></script>
-
         <!--=============== MAIN JS ===============-->
         <script src=""></script>
     </body>
