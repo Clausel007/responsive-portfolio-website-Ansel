@@ -196,10 +196,9 @@ img {
 }
 /* Active link */
 .active-link {
-  background: linear-gradient(180deg, 
-    hsla(var(--first-hue), var(--sat), var(--lig), 1),
-    hsla(var(--first-hue), var(--sat), var(--lig), .2)
-  );
+background: linear-gradient(180deg, 
+  hsla(var(--first-hue), var(--sat), var(--lig), 1),
+  hsla(var(--first-hue), var(--sat), var(--lig), .2));
 box-shadow: 0 0 16px hsla(
   var(--first-hue), 
   var(--sat), 
@@ -244,8 +243,7 @@ box-shadow: 0 0 16px hsla(
   height: 313px;
   background: linear-gradient(180deg, 
     hsla(var(--first-hue), var(--sat), var(--lig), 1),
-    hsla(var(--first-hue), var(--sat), var(--lig), .2)
-  );
+    hsla(var(--first-hue), var(--sat), var(--lig), .2));
   border-radius: 10rem 10rem 1rem 1rem;
   display: flex;
   align-items: flex-end;
@@ -392,11 +390,11 @@ box-shadow: 0 0 16px hsla(
 .skill-group {
   display: grid;
   align-items: flex-start;
-  row-gap: 1rem;
+  row-gap: 2rem;
 }
 .skill-data {
   display: flex;
-  column-gap: .5rem;
+  column-gap: 1.5rem;
 }
 .skills .bxs-badge-check {
   font-size: 1rem;
@@ -410,11 +408,98 @@ box-shadow: 0 0 16px hsla(
   font-size: var(--tiny-font-size);
 }
 /*=============== SERVICES ===============*/
-
+.services-container {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  padding-top: 1rem;
+}
+.service-card{
+  background-color: var(--container-color);
+  padding: 3rem 1.5rem 1.5rem;
+  border-radius: 1rem;
+}
+.service-title {
+font-size: var(--h3-font-size);
+margin-bottom: 2.5rem;
+}
+.service-btn {
+  color: var(--first-color);
+  font-size: var(--small-font-size);
+  display: flex;
+  align-items: center;
+  column-gap: .20rem;
+  cursor: pointer;
+}
+.service-btn:hover .service-btn-icon {
+  transform: translateX(.25rem);
+}
+.service-btn-icon {
+  line-height: 1;
+  font-size: 1rem;
+  transition: .4s;
+}
 /* Services modal */
+.service-modal {
+  position: fixed;
+  background-color:hsla(var(--second-hue), 28%, 16%, .7);
+  padding: 2rem 1rem;
+  display: grid;
+  place-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: .4s;
+  z-index: var(--z-modal);
+}
+.service-modal-content {
+  position: relative;
+  background-color: var(--body-color);
+  padding: 4.5rem 1.5rem 2.5rem;
+  border-radius: 1.5rem;
+}
+.service-modal-title,
+.service-modal-description {
+  text-align: center;
+}
+.service-modal-title {
+  font-size: var(--h3-font-size);
+  color: var(--first-color);
+  margin-bottom: 1rem;
+}
+.service-modal-description {
+  font-size: var(--small-font-size);
+  margin-bottom: 2rem;
+}
+.service-modal-list {
+  display: grid;
+  row-gap: .75rem;
+}
+.service-modal-item {
+  display: flex;
+  align-items: flex-start;
+  column-gap: .5rem;
+}
+.service-modal-icon {
+  font-size: 1.5rem;
+  color: var(--first-color);
+}
+.service-modal-info {
+  font-size: var(--small-font-size);
+}
+.service-modal-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  color: var(--first-color);
+  cursor: pointer;
+} 
 
 /*Active modal*/
-
+.active-modal {
+  opacity: 1;
+  visibility: visible;
+  inset: 0;
+}
 /*=============== WORK ===============*/
 
 /* Active item work*/
