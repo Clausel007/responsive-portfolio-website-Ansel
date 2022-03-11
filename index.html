@@ -7,9 +7,10 @@
         <!--=============== BOXICONS ===============-->
         <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
         <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         <!--=============== CSS ===============-->
         <title>John Clausel</title>
+        <link rel="stylesheet" href="assets/css/styles.css">
     </head>
     <body>
         <!--=============== HEADER ===============-->
@@ -66,21 +67,21 @@
                         <img src="assets/img/perfil.png" alt="" class="home-img">
                     </div>
                     <div class="home-social">
-                        <a href="#" class="home-social-link">
+                        <a href="#" target="_blank" class="home-social-link">
                             <i class="bx bxl-linkedin"></i>
                         </a>
-                        <a href="#" class="home-social-link">
+                        <a href="#" target="_blank" class="home-social-link">
                             <i class="bx bxl-facebook"></i>
                         </a>
-                        <a href="#" class="home-social-link">
+                        <a href="#" target="_blank" class="home-social-link">
                             <i class="bx bxl-twitter"></i>
                         </a>
                     </div>
                     <div class="home-social-2">
-                        <a href="#" class="home-social-link">
+                        <a href="#" target="_blank" class="home-social-link">
                             <i class="bx bxl-instagram"></i>
                         </a>
-                        <a href="#" class="home-social-link">
+                        <a href="#" target="_blank" class="home-social-link">
                             <i class="bx bxl-github"></i>
                         </a>
                     </div>
@@ -241,55 +242,13 @@
             </section>
             <!--=============== SERVICES ===============-->
             <section class="services section" id="services">
-                <span class="section-subtitle">Mes Services</span>
-                <h2 class="section-title">Ce que je fais</h2>
+                <span class="section-subtitle">Ce que je fais</span>
+                <h2 class="section-title">Mes Services</h2>
                 <div class="services-container container grid">
                     <div class="service-card">
-                        <h3 class="service-title">Site Web</h3>
+                        <h3 class="service-title">Site<br/>Web</h3>
                         <span class="service-btn">
-                            Voir portfolio <i class="bx bx-right-arrow-alt service-btn-icon"></i>
-                        </span>
-                        <div class="service-modal active-modal">
-                            <div class="service-modal-content">
-                                <i class="bx bx-x service-modal-close"></i>
-                                <h3 class="service-modal-title">Site Web</h3>
-                                <p class="service-modal-description">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                                    Dolor illo aliquid asperiores numquam commodi nihil atque quod.
-                                </p>
-                                <ul class="service-modal-list">
-                                    <li class="service-modal-item">
-                                        <i class="bx bx-check service-modal-icon"></i>
-                                        <p class="service-modal-info">
-                                            lorem ipsum dolor sit amet consectetur
-                                        </p>
-                                    </li>
-                                    <li class="service-modal-item">
-                                        <i class="bx bx-check service-modal-icon"></i>
-                                        <p class="service-modal-info">
-                                            lorem ipsum dolor sit amet consectetur
-                                        </p>
-                                    </li>
-                                    <li class="service-modal-item">
-                                        <i class="bx bx-check service-modal-icon"></i>
-                                        <p class="service-modal-info">
-                                            lorem ipsum dolor sit amet consectetur
-                                        </p>
-                                    </li>
-                                    <li class="service-modal-item">
-                                        <i class="bx bx-check service-modal-icon"></i>
-                                        <p class="service-modal-info">
-                                            lorem ipsum dolor sit amet consectetur
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="service-card">
-                        <h3 class="service-title">Application Web</h3>
-                        <span class="service-btn">
-                            Voir portfolio <i class="bx bx-right-arrow-alt service-btn-icon"></i>
+                            Voir plus <i class="bx bx-right-arrow-alt service-btn-icon"></i>
                         </span>
                         <div class="service-modal">
                             <div class="service-modal-content">
@@ -329,9 +288,9 @@
                         </div>
                     </div>
                     <div class="service-card">
-                        <h3 class="service-title">Application Mobile</h3>
+                        <h3 class="service-title">Application<br/>Web</h3>
                         <span class="service-btn">
-                            Voir portfolio <i class="bx bx-right-arrow-alt service-btn-icon"></i>
+                            Voir plus <i class="bx bx-right-arrow-alt service-btn-icon"></i>
                         </span>
                         <div class="service-modal">
                             <div class="service-modal-content">
@@ -369,29 +328,211 @@
                                 </ul>
                             </div>
                         </div>
+                    </div>
+                    <div class="service-card">
+                        <h3 class="service-title">Application<br/>Mobile</h3>
+                        <span class="service-btn">
+                            Voir plus <i class="bx bx-right-arrow-alt service-btn-icon"></i>
+                        </span>
+                        <div class="service-modal">
+                            <div class="service-modal-content">
+                                <i class="bx bx-x service-modal-close"></i>
+                                <h3 class="service-modal-title">Site Web</h3>
+                                <p class="service-modal-description">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                    Dolor illo aliquid asperiores numquam commodi nihil atque quod.
+                                </p>
+                                <ul class="service-modal-list">
+                                    <li class="service-modal-item">
+                                        <i class="bx bx-check service-modal-icon"></i>
+                                        <p class="service-modal-info">
+                                            lorem ipsum dolor sit amet consectetur
+                                        </p>
+                                    </li>
+                                    <li class="service-modal-item">
+                                        <i class="bx bx-check service-modal-icon"></i>
+                                        <p class="service-modal-info">
+                                            lorem ipsum dolor sit amet consectetur
+                                        </p>
+                                    </li>
+                                    <li class="service-modal-item">
+                                        <i class="bx bx-check service-modal-icon"></i>
+                                        <p class="service-modal-info">
+                                            lorem ipsum dolor sit amet consectetur
+                                        </p>
+                                    </li>
+                                    <li class="service-modal-item">
+                                        <i class="bx bx-check service-modal-icon"></i>
+                                        <p class="service-modal-info">
+                                            lorem ipsum dolor sit amet consectetur
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-card anker">
+                        <h3 class="service-title"><a class="anker-service-link" href="#work">Voir Portfolio</a></h3>
                     </div>
                 </div>
             </section>
             <!--=============== WORK ===============-->
-            <section class="work section" id="work">
+            <section class="work section">
+                <span class="section-subtitle" id="work">Mes réalisations récentes</span>
+                <h2 class="section-title">Mon Portfolio</h2>
+                <div class="work-filter">
+                    <span class="work-filter-item work-filter-item-active" data-filter="all">Tous</span>
+                    <span class="work-filter-item" data-filter=".web">Web</span>
+                    <span class="work-filter-item" data-filter=".design">Graphisme</span>
+                    <span class="work-filter-item" data-filter=".mockup">Maquette</span>
+                </div>
+                <div class="work-container container grid">
+                    <div class="work-card mix design">
+                        <img src="assets/img/work1.jpg" class="work-img" alt="">
+                        <h3 class="work-title">Brand design</h3>
+                        <a href="#" class="work-button">Demo <i class="bx bx-right-arrow-alt work-icon"></i></a>
+                    </div>
+                    <div class="work-card mix mockup">
+                        <img src="assets/img/work1.jpg" class="work-img" alt="">
+                        <h3 class="work-title">Maquette</h3>
+                        <a href="#" class="work-button">Demo <i class="bx bx-right-arrow-alt work-icon"></i></a>
+                    </div>
+                    <div class="work-card mix web">
+                        <img src="assets/img/work3.jpg" class="work-img" alt="">
+                        <h3 class="work-title">Site web</h3>
+                        <a href="#" class="work-button">Demo <i class="bx bx-right-arrow-alt work-icon"></i></a>
+                    </div>
+                    <div class="work-card mix design">
+                        <img src="assets/img/work4.jpg" class="work-img" alt="">
+                        <h3 class="work-title">Banner</h3>
+                        <a href="#" class="work-button">Demo <i class="bx bx-right-arrow-alt work-icon"></i></a>
+                    </div>
+                    <div class="work-card mix web">
+                        <img src="assets/img/work5.jpg" class="work-img" alt="">
+                        <h3 class="work-title">TikiWiki</h3>
+                        <a href="#" class="work-button">Demo <i class="bx bx-right-arrow-alt work-icon"></i></a>
+                    </div>
+                </div>
             </section>
             <!--=============== TESTIMONIALS ===============-->
             <section class="testimonial section">
+                <span class="section-subtitle">Ce que disent mes partenaires</span>
+                <h2 class="section-title">Feedbacks</h2>
+                <div class="testimonial-container container swiper">
+                    <div class="swiper-wrapper">
+                        <div class="testimonial-card swiper-slide">
+                            <img src="assets/img/testimonial1.png" alt="" class="testimonial-img">
+                            <h3 class="testimonial-name">John Doe</h3>
+                            <p class="testimonial-description">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Corrupti accusantium numquam corporis quia vitae laudantium delectus architecto nostrum.
+                            </p>
+                        </div>
+                        <div class="testimonial-card swiper-slide">
+                            <img src="assets/img/testimonial2.png" alt="" class="testimonial-img">
+                            <h3 class="testimonial-name">Laura Smith</h3>
+                            <p class="testimonial-description">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Corrupti accusantium numquam corporis quia vitae laudantium delectus architecto nostrum.
+                            </p>
+                        </div>
+                        <div class="testimonial-card swiper-slide">
+                            <img src="assets/img/testimonial3.png" alt="" class="testimonial-img">
+                            <h3 class="testimonial-name">Jane Doe</h3>
+                            <p class="testimonial-description">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Corrupti accusantium numquam corporis quia vitae laudantium delectus architecto nostrum.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
             </section>
             <!--=============== CONTACT ===============-->
             <section class="contact section" id="contact">
+                <span class="section-subtitle">Vous pouvez me contacter</span>
+                <h2 class="section-title">Collaborrons</h2>
+                <div class="contact-container container grid">
+                    <div class="contact-content">
+                        <h3 class="contact-title">Laissez un message</h3>
+                        <div class="contact-info">
+                            <div class="contact-card">
+                                <i class="bx bx-mail-send contact-card-icon"></i>
+                                <h3 class="contact-card-title">Email</h3>
+                                <span class="contact-card-data">jcclausel@gmail.com</span>
+                                <a href="mailto:jcclausel@gmail.com" target="_blank" class="contact-btn">
+                                    Ecris moi <i class="bx bx-right-arrow-alt contact-btn-icon"></i>
+                                </a>
+                            </div>
+                            <div class="contact-card">
+                                <i class="bx bxl-whatsapp"></i>
+                                <h3 class="contact-card-title">Whatsapp</h3>
+                                <span class="contact-card-data">+50949495601</span>
+                                <a href="https://api.Whatsapp.com/send?phone=+50949495601text=Allo!" target="_blank" class="contact-btn">
+                                    Ecris moi <i class="bx bx-right-arrow-alt contact-btn-icon"></i>
+                                </a>
+                            </div>
+                            <div class="contact-card">
+                                <i class="bx bx-mail-send contact-card-icon"></i>
+                                <h3 class="contact-card-title">Messenger</h3>
+                                <span class="contact-card-data">John Clausel</span>
+                                <a href="" target="_blank" class="contact-btn">
+                                    Ecris moi <i class="bx bx-right-arrow-alt contact-btn-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-content">
+                        <h3 class="contact-title">Raconte moi ton projet</h3>
+                        <form action="#" class="contact-form">
+                            <div class="contact-form-tag">
+                                <label for="name" class="contact-form-label">Nom Complet</label>
+                                <input type="text" placeholder="Entrez votre nom" class="contact-form-input" id="name">
+                            </div>
+                            <div class="contact-form-tag">
+                                <label for="mail" class="contact-form-label">Email</label>
+                                <input type="email" placeholder="Entrez votre email" class="contact-form-input" id="mail">
+                            </div>
+                            <div class="contact-form-tag">
+                                <label for="textarea" class="contact-form-label">Projet</label>
+                                <textarea class="contact-form-input contact-form-area" name="newsletter" id="textarea" cols="30" rows="10" placeholder="Describe project here..."></textarea>
+                            </div>
+                            <button class="btn btn-form-contact">Envoyer message</button>
+                        </form>
+                    </div>
+                </div>
             </section>
         </main>
         <!--=============== FOOTER ===============-->
         <footer class="footer">
+            <div class="footer-container container">
+                <h1 class="footer-title">Claus</h1>
+                <ul class="footer-list">
+                    <li><a href="#about" class="footer-list-link">A Propos</a></li>
+                    <li><a href="#work" class="footer-list-link">Mon Portfolio</a></li>
+                    <li><a href="#testimonial" class="footer-list-link">FeedBacks</a></li>
+                </ul>
+                <div class="footer-social">
+                    <a href="#" class="footer-social-link">
+                        <i class="bx bxl-facebook"></i>
+                    </a>
+                    <a href="#" class="footer-social-link">
+                        <i class="bx bxl-instagram"></i>
+                    </a>
+                    <a href="#" class="footer-social-link">
+                        <i class="bx bxl-twitter"></i>
+                    </a>
+                </div>
+                <span class="footer-copy">&#169; Claus. All rights reserved.</span>
+            </div>
         </footer>
         <!--=============== SCROLLREVEAL ===============-->
-        <script src="assets/js/app.js"></script>
+        <script src="assets/js/scrollreveal.min.js"></script>
         <!--=============== SWIPER JS ===============-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
         <!--=============== MIXITUP FILTER ===============-->
-        <script src=""></script>
+        <script src="assets/js/mixitup.min.js"></script>
         <!--=============== MAIN JS ===============-->
-        <script src=""></script>
+        <script src="assets/js/app.js"></script>
     </body>
 </html>
